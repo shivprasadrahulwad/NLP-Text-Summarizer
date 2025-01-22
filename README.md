@@ -24,6 +24,14 @@ The project follows a modular architecture with the following components:
 5. API service layer
 6. Docker containerization
 
+
+
+![Screenshot 2025-01-22 100039](https://github.com/user-attachments/assets/ee15e390-25ef-42e4-b794-88060f65df46)
+
+
+
+
+
 ## 🚀 Installation Steps
 
 ### Local Setup
