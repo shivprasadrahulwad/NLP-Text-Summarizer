@@ -1,0 +1,358 @@
+[2025-01-22 03:46:47,861: INFO: server: Started server process [874]]
+[2025-01-22 03:46:47,866: INFO: on: Waiting for application startup.]
+[2025-01-22 03:46:47,867: INFO: on: Application startup complete.]
+[2025-01-22 03:46:47,868: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 03:47:46,298: INFO: server: Shutting down]
+[2025-01-22 03:47:46,405: INFO: on: Waiting for application shutdown.]
+[2025-01-22 03:47:46,407: INFO: on: Application shutdown complete.]
+[2025-01-22 03:47:46,407: INFO: server: Finished server process [874]]
+[2025-01-22 03:47:54,971: INFO: server: Started server process [891]]
+[2025-01-22 03:47:54,979: INFO: on: Waiting for application startup.]
+[2025-01-22 03:47:54,981: INFO: on: Application startup complete.]
+[2025-01-22 03:47:54,982: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 04:05:29,541: INFO: server: Shutting down]
+[2025-01-22 04:05:29,650: INFO: on: Waiting for application shutdown.]
+[2025-01-22 04:05:29,653: INFO: on: Application shutdown complete.]
+[2025-01-22 04:05:29,654: INFO: server: Finished server process [891]]
+[2025-01-22 04:05:38,947: INFO: server: Started server process [1366]]
+[2025-01-22 04:05:38,951: INFO: on: Waiting for application startup.]
+[2025-01-22 04:05:38,952: INFO: on: Application startup complete.]
+[2025-01-22 04:05:38,953: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 04:08:27,689: INFO: config: PyTorch version 2.4.1 available.]
+[2025-01-22 04:10:33,044: INFO: config: PyTorch version 2.4.1 available.]
+[2025-01-22 04:10:57,904: INFO: server: Shutting down]
+[2025-01-22 04:10:58,011: INFO: on: Waiting for application shutdown.]
+[2025-01-22 04:10:58,013: INFO: on: Application shutdown complete.]
+[2025-01-22 04:10:58,014: INFO: server: Finished server process [1366]]
+[2025-01-22 04:11:05,055: INFO: server: Started server process [1422]]
+[2025-01-22 04:11:05,058: INFO: on: Waiting for application startup.]
+[2025-01-22 04:11:05,058: INFO: on: Application startup complete.]
+[2025-01-22 04:11:05,059: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 04:11:22,435: INFO: config: PyTorch version 2.4.1 available.]
+[2025-01-22 04:12:27,676: INFO: server: Shutting down]
+[2025-01-22 04:12:27,782: INFO: on: Waiting for application shutdown.]
+[2025-01-22 04:12:27,783: INFO: on: Application shutdown complete.]
+[2025-01-22 04:12:27,783: INFO: server: Finished server process [1422]]
+[2025-01-22 04:12:41,127: INFO: server: Started server process [1477]]
+[2025-01-22 04:12:41,131: INFO: on: Waiting for application startup.]
+[2025-01-22 04:12:41,132: INFO: on: Application startup complete.]
+[2025-01-22 04:12:41,133: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 04:12:59,419: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-22 04:12:59,449: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:12:59,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:12:59,479: INFO: common: created directory at: artifacts]
+[2025-01-22 04:12:59,486: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-22 04:13:02,345: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4D54:22A780:8F6D1:DD97E:67907049
+Accept-Ranges: bytes
+Date: Wed, 22 Jan 2025 04:12:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4751-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1737519178.231442,VS0,VE633
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 92506d1fce00943357f07286ae825e719f908f66
+Expires: Wed, 22 Jan 2025 04:17:58 GMT
+Source-Age: 0
+
+]
+[2025-01-22 04:13:03,047: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:13:03,047: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-22 04:13:03,059: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:13:03,065: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:13:03,070: INFO: common: created directory at: artifacts]
+[2025-01-22 04:13:03,075: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-22 04:13:03,128: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:13:03,128: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-22 04:13:03,137: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:13:03,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:13:03,148: INFO: common: created directory at: artifacts]
+[2025-01-22 04:13:03,153: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-22 04:13:12,448: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:13:12,449: INFO: main: *******************]
+[2025-01-22 04:13:12,449: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-01-22 04:13:12,455: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:13:12,459: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:13:12,462: INFO: common: created directory at: artifacts]
+[2025-01-22 04:13:12,465: INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-22 04:21:01,372: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`]
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    model_trainer.main()
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/conponents/model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 1773, in __post_init__
+    self.device
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 2299, in device
+    return self._setup_devices
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 2172, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`
+[2025-01-22 04:22:15,461: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:22:15,470: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:22:15,476: INFO: common: created directory at: artifacts]
+[2025-01-22 04:22:15,490: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-01-22 04:22:15,499: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "app.py", line 41, in predict_route
+    raise e
+  File "app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/pipeline/prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 857, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 689, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 469, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-01-22 04:22:34,361: INFO: server: Shutting down]
+[2025-01-22 04:22:34,467: INFO: on: Waiting for application shutdown.]
+[2025-01-22 04:22:34,469: INFO: on: Application shutdown complete.]
+[2025-01-22 04:22:34,470: INFO: server: Finished server process [1477]]
+[2025-01-22 04:22:39,224: INFO: server: Started server process [1576]]
+[2025-01-22 04:22:39,228: INFO: on: Waiting for application startup.]
+[2025-01-22 04:22:39,229: INFO: on: Application startup complete.]
+[2025-01-22 04:22:39,230: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2025-01-22 04:23:01,224: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:23:01,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:23:01,236: INFO: common: created directory at: artifacts]
+[2025-01-22 04:23:01,246: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-01-22 04:23:01,252: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "app.py", line 41, in predict_route
+    raise e
+  File "app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/pipeline/prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 857, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 689, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 469, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-01-22 04:24:06,298: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-22 04:24:06,310: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:24:06,321: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:24:06,328: INFO: common: created directory at: artifacts]
+[2025-01-22 04:24:06,342: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-22 04:24:06,358: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2025-01-22 04:24:08,671: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:24:08,672: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2025-01-22 04:24:08,692: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:24:08,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:24:08,722: INFO: common: created directory at: artifacts]
+[2025-01-22 04:24:08,743: INFO: common: created directory at: artifacts/data_validation]
+[2025-01-22 04:24:08,856: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:24:08,857: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2025-01-22 04:24:08,876: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:24:08,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:24:08,906: INFO: common: created directory at: artifacts]
+[2025-01-22 04:24:08,927: INFO: common: created directory at: artifacts/data_transformation]
+[2025-01-22 04:24:15,389: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2025-01-22 04:24:15,391: INFO: main: *******************]
+[2025-01-22 04:24:15,392: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2025-01-22 04:24:15,409: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:24:15,424: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:24:15,435: INFO: common: created directory at: artifacts]
+[2025-01-22 04:24:15,452: INFO: common: created directory at: artifacts/model_trainer]
+[2025-01-22 04:24:28,278: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`]
+Traceback (most recent call last):
+  File "main.py", line 51, in <module>
+    model_trainer.main()
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/conponents/model_trainer.py", line 34, in train
+    trainer_args = TrainingArguments(
+  File "<string>", line 134, in __init__
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 1773, in __post_init__
+    self.device
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 2299, in device
+    return self._setup_devices
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/generic.py", line 60, in __get__
+    cached = self.fget(obj)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/training_args.py", line 2172, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.26.0`: Please run `pip install transformers[torch]` or `pip install 'accelerate>={ACCELERATE_MIN_VERSION}'`
+[2025-01-22 04:29:21,430: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-01-22 04:29:21,448: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-01-22 04:29:21,459: INFO: common: created directory at: artifacts]
+[2025-01-22 04:29:21,471: INFO: common: created directory at: artifacts/model_evaluation]
+[2025-01-22 04:29:21,492: ERROR: h11_impl: Exception in ASGI application
+]
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+  File "app.py", line 41, in predict_route
+    raise e
+  File "app.py", line 38, in predict_route
+    text = obj.predict(text)
+  File "/mnt/d/AIML/Text-Summarization-NLP-Project/src/textSummarizer/pipeline/prediction.py", line 13, in predict
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 857, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/models/auto/tokenization_auto.py", line 689, in get_tokenizer_config
+    resolved_config_file = cached_file(
+  File "/home/shivprasadrahulwad/miniconda3/envs/text-summarization-nlp/lib/python3.8/site-packages/transformers/utils/hub.py", line 469, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: 'artifacts/model_trainer/tokenizer'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2025-01-22 04:30:08,774: INFO: server: Shutting down]
+[2025-01-22 04:30:08,882: INFO: on: Waiting for application shutdown.]
+[2025-01-22 04:30:08,893: INFO: on: Application shutdown complete.]
+[2025-01-22 04:30:08,895: INFO: server: Finished server process [1576]]
